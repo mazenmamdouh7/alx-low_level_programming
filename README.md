@@ -1,1 +1,1 @@
-new task c
+pointer,arrays and strings
