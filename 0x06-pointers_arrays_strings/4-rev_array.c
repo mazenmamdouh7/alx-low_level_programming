@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 include "main.h"
+=======
+#include "main.h"
+>>>>>>> 039fce787e2ce462e84a46592885910a7d779d86
 /**
  * reverse_array - prints reverse array.
  * @a: array to be compared.

@@ -17,3 +17,7 @@ git commit -m "Task $task_number done"
 
 # Push the changes to the remote repository
 git push
+<<<<<<< HEAD
+=======
+
+>>>>>>> 039fce787e2ce462e84a46592885910a7d779d86

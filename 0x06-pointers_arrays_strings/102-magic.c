@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 include <stdio.h>
+=======
+#include <stdio.h>
+>>>>>>> 039fce787e2ce462e84a46592885910a7d779d86
 
 int main(void)
 {
