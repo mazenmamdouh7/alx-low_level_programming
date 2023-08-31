@@ -12,7 +12,7 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	if (*s == '\0')
+	else
 	{
 		return (0);
 	}
