@@ -13,6 +13,6 @@ int _sqrt_recursion(int n)
 	}
 	if (n * 2 == n)
 	{
-		return (_sqrt_recursion(n));
+		return (1);
 	}
 }
