@@ -11,8 +11,9 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	if (n * 2 == n)
+	if (n > 0)
 	{
+		n = n * 2;
 		return (_sqrt_recursion(n));
 	}
 }
