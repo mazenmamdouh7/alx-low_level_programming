@@ -9,8 +9,11 @@
 
 char *_strdup(char *str)
 {
-	unsigned int i , n;
+	unsigned int i, n;
 	char *duplicatedstr;
+
+	i = 0;
+	n = 0;
 
 	if (str == NULL)
 	{
@@ -19,11 +22,15 @@ char *_strdup(char *str)
 	if (str[i] != '\0')
 	{
 		i++;
-		duplicatedstr = (char *) malloc((sizeof char ) * i);
+		duplicatedstr = (char *) malloc((sizeof(char)) * i);
+	}
+	if (duplicatedstr == NULL)
+	{
+		return (NULL);
 	}
 	if ((duplicatedstr[n] == str[n]) != '\0')
 	{
 		n++;
 	}
-	free (duplicatedstr);
+	free(duplicatedstr);
 }
