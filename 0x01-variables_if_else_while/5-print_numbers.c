@@ -2,19 +2,20 @@
 
 /**
  * main - Entry point
- *
+ *Description : A progrma prints all single digit
+ *             numbers of base '10' starting from '0'.
  * Return: Always 0 (Succes)
  */
 
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 0 ; n < 10 ; n++)
+	for (num = 0 ; num < 10 ; num++)
 	{
-		printf("%d", n);
+		printf("%d", num);
 	}
-	putchar('\n');
+	printf('\n');
 	return (0);
 
 }
