@@ -2,23 +2,26 @@
 
 /**
  * main - Entry point
- *
+ *Description :A program that prints all possible
+ *             different combinations of two digits.
+ * conditions : Numbers must be separated by ',', followed by a space
+ *             ,and Print only the smallest combination of two digits.
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n, m;
+	int Left_num, Right_num;
 
-	for (n = 0 ; n < 10 ; n++)
+	for (Left_num = 0 ; Left_num < 10 ; Left_num++)
 	{
-		for (m = n + 1 ; m < 10 ; m++)
+		for (m = Left_num + 1 ; Right_num < 10 ; Right_num++)
 		{
-			putchar(n + '0');
-			putchar(m + '0');
+			putchar(Left_num + '0');
+			putchar(Right_num + '0');
 
 
-			if (n != 8 || m != 9)
+			if (Left_num != 8 || Right_num != 9)
 			{
 				putchar(',');
 				putchar(' ');
