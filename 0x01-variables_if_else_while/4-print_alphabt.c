@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- *
- *
+ *Description : prints the alphabet in lowercase without 'e'and'q'
+ *		,and new line.
  * Return: Always 0 (Sucess)
  */
 
