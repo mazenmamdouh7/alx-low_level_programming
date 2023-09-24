@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *Description : prints the alphabet in lowercase,then in uppercase
- *		,and new line. 
+ *		,and new line.
  * Return: Always 0 (Sucess)
  */
 
