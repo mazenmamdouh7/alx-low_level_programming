@@ -4,7 +4,7 @@
  * main - Entry point
  * Description : A program prints all possible
  *              combinations of single-digit numbers.
- *Coditions : Numbers must be separated by ','
+ * Coditions : Numbers must be separated by ','
  *           , and followed by a space
  * Return: Always 0 (Success)
  */
