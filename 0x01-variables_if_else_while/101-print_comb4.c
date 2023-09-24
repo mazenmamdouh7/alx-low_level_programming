@@ -2,7 +2,11 @@
 
 /**
  * main - Entry point
- *
+ * Description : a program that prints all possible
+ * different combinations of three digits.
+ * Conditions : Print only the smallest combination of three digits
+ *             ,Numbers must be separated by ','
+ *            ,and followed by a space.
  * Return: Always 0 (Succes)
  */
 
