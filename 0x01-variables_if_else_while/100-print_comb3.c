@@ -15,7 +15,7 @@ int main(void)
 
 	for (Left_num = 0 ; Left_num < 10 ; Left_num++)
 	{
-		for (m = Left_num + 1 ; Right_num < 10 ; Right_num++)
+		for (Right_num = Left_num + 1 ; Right_num < 10 ; Right_num++)
 		{
 			putchar(Left_num + '0');
 			putchar(Right_num + '0');
