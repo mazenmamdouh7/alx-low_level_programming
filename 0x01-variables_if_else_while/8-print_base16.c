@@ -2,17 +2,26 @@
 
 /**
  * main - Entry point
- *
+ * Description :A program prints all the numbers of base 16 in lowercase,
+ *              followed by a new line.
  * Return: 0
  */
 
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 0 ; n < 16 ; n++)
+	for (num = 0 ; num < 16 ; num++)
 	{
-		putchar(n + '0');
+		if (num < 10)
+		{
+			putchar('0' + num);
+		}
+		else
+		{
+			putchar(87 + num);
+
+		}
 	}
 	putchar('\n');
 	return (0);
