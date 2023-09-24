@@ -2,19 +2,22 @@
 
 /**
  * main - Entry point
- *
+ * Description : A program prints all possible
+ *              combinations of single-digit numbers.
+ *Coditions : Numbers must be separated by ','
+ *           , and followed by a space
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n;
+	int number;
 
-	for (n = 0 ; n < 10 ; n++)
+	for (number = 0 ; number < 10 ; number++)
 	{
-		putchar(n + '0');
+		putchar(number + '0');
 
-		if (n != 9)
+		if (number != 9)
 		{
 			putchar(',');
 			putchar(' ');
