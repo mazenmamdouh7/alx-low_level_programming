@@ -2,17 +2,20 @@
 
 /**
  * main - Entry point
- *
+ *Description : prints all single digit
+ *		numbers of base '10' starting from '0'
+ *		,and follwed by new line.
+ *Conditions : print the result using putchar function.
  * Return: 0
  */
 
 int main(void)
 {
-	int n;
+	int number;
 
-	for (n = 0 ; n < 10 ; n++)
+	for (number = 0 ; number < 10 ; number++)
 	{
-		putchar(n + '0');
+		putchar(number + '0');
 	}
 	putchar('\n');
 	return (0);
