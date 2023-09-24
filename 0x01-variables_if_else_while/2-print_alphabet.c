@@ -3,15 +3,15 @@
 /**
  * main - main function
  * Description:printing alphabets in lowercase
- * Return: Return
+ * Return: 0
  */
 int main(void)
 {
-	int ch;
+	int character;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (character = 'a'; character <= 'z'; character++)
 	{
-		putchar(ch);
+		putchar(charcter);
 	}
 	putchar('\n');
 	return (0);
