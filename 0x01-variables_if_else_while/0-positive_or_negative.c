@@ -5,10 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - function pr
- * Describtion : A program explain if statment.
- * Return:0
- *
+ * main - main function
+ * Description: A program explain if statments.
+ * Return: 0
  */
 int main(void)
 {
@@ -24,12 +23,11 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is positive", n);
+		printf("%d is negative\n", n);
 	}
-
 	return (0);
 }
