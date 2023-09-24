@@ -2,18 +2,19 @@
 
 /**
  * main - Entry point
+ *Description : A program prints the lowercase
+ *             alphabet in reverse, followed by a new line.
  *
- *
- * Return: Always 0 (Sucess)
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char c;
+	char character;
 
-	for (c = 'z' ; c >= 'a' ; c--)
+	for (character = 'z' ; character >= 'a' ; character--)
 	{
-		putchar(c);
+		putchar(character);
 	}
 	putchar('\n');
 	return (0);
