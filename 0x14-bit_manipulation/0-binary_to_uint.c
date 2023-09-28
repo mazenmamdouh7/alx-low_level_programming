@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else
 		{
-			unsNum = (unsNum << 1) | (b[i] - '0');
+			unsNum = (unsNum << 1) | (b[R] - '0');
 		}
 	}
 	return (unsNum);
