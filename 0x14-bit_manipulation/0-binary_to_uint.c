@@ -23,5 +23,6 @@ unsigned int binary_to_uint(const char *b)
 			unsNum = (unsNum << 1) | (b[R] - '0');
 		}
 	}
+
 	return (unsNum);
 }
