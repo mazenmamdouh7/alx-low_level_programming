@@ -14,13 +14,14 @@ unsigned int binary_to_uint(const char *b)
 
 	for (R = 0; b[R] != '\0'; R++)
 	{
-		if (b[R] == '0' || b[R] == '1')
-		{
-			return (unsNum);
-		}
-		else
+		if (b[R] != '0' || b[R] != '1')
 		{
 			return (0);
 		}
+		else
+		{
+			unsNum = (unsNum << 1) | (b[i] - '0');
+		}
 	}
+	return (unsNum);
 }
